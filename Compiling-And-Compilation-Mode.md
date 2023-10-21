@@ -14,7 +14,7 @@ In the main plugdata menu, you will find a toggle box labelled ***Compiled Mode*
 ![plugdata Compilation Mode-screenie](https://github.com/thouldcroft/plugdata_wiki_wip_tdh/assets/1238556/55f6a110-66b6-4112-b3ee-dd60e5c19e33)
 
 >[!WARNING]
->When compiling *DPF Audio Plug-ins*, your plugdata patch cannot contain any "special characters". Special characters include the following: <br>
+>When compiling, avoid special characters in your patch name. Special charcacters may (and often do) cause problems in the compilation process (despite even receiving the "Success" message). Special characters include the following: <br>
 >		` ~ @ ! $ # ^ * % & ( ) [ ] { } < > + = _ – | / \ ; : ' “ , . ?
 
 >[!WARNING]
