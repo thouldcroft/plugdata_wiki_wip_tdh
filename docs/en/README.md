@@ -8,6 +8,8 @@ plugdata also integrates with the [hvcc](https://wasted-audio.github.io/hvcc/doc
 
 Please check the sidebar for installation and basic usage information. More information about the current state of the software can be found in the [main repository](https://github.com/plugdata-team/plugdata). You might also want to check out the [develop branch](https://github.com/plugdata-team/plugdata/tree/develop) for the latest development sources.
 
-**Ardour** and **REAPER** users: If you have trouble editing patches in the plugin window, please check the [plugdata in the DAW](plugdata-in-the-DAW) wiki page for tips and tricks.
+**Ardour** and **REAPER** users: If you have trouble editing patches in the plugin window, please check the [plugdata in the DAW](plugdata-in-the-DAW.html) wiki page for tips and tricks.
 
-![plugdata-screenie](plugdata-screenie.png)
+
+
+![plugdata-screenie](../plugdata-screenie.png)

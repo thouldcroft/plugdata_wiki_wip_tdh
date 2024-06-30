@@ -4,10 +4,10 @@ To take full advantage of all capabilities of the plugin incarnation, and to be 
 
 - In Ardour, click on the keyboard icon in the upper right corner of the plugin window:
 
-    ![Ardour](ardour-screenie.png)
+    ![Ardour](../screenshots/ardour-screenie.png)
 
 - In REAPER, enable the "Send all keyboard input to plug-in" option in the FX menu of the plugin window:
 
-    ![REAPER](reaper-screenie.png)
+    ![REAPER](../screenshots/reaper-screenie.png)
 
 Try this if your keyboard input in the plugin window doesn't appear to work. With those options, plugdata's usual keyboard shortcuts should all work normally, and you should be able to edit object names, properties, parameter names etc. without any problems.
