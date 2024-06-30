@@ -13,7 +13,7 @@ OBS packages (maintained by @KottV): https://software.opensuse.org//download.htm
 
 AUR packages (maintained by @aik2mlj): https://aur.archlinux.org/packages/plugdata-git
 
-If your distro is not supported, see [Building from Source](Building-from-Source).
+If your distro is not supported, see [Building from Source](Building-from-Source.html).
 
 
 ## Latest build

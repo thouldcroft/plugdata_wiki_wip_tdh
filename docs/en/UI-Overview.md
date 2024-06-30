@@ -1,5 +1,5 @@
 ## plugdata UI overview:
-![plugdata main window](screenshots/plugdata_main_interface_markup.png)
+![plugdata main window](../screenshots/plugdata_main_interface_markup.png)
 
 #### Toolbar
 
@@ -46,7 +46,7 @@ The first section shows plugdata's theme selector, in the example below, the def
 
 Below the theme selector is a canvas zoom display / control. Use this to change the scale of the currently selected canvas. When working on different patches, the zoom control will reflect the current zoom of the active patch.
 
-![main menu](screenshots/main_menu.png)
+![main menu](../screenshots/main_menu.png)
 
 **New patch** Create new .pd patch
 
@@ -72,7 +72,7 @@ Below the theme selector is a canvas zoom display / control. Use this to change 
 
 ### 3) Add object menu:
 
-![add object menu](screenshots/add_object_menu.png)
+![add object menu](../screenshots/add_object_menu.png)
 
 Click and drag any object from this menu into the canvas. This menu shows a small usefull subset of objects, for access to all objects, click on the **Show Object Browser**
 
@@ -87,7 +87,7 @@ Click and drag any object from this menu into the canvas. This menu shows a smal
 
 ### 9) Palette panel:
 
-![palettes](screenshots/palette_panel.png)
+![palettes](../screenshots/palette_panel.png)
 
 The palette panel can be shown by clicking on any palette category. To hide the panel, simply click on the active category. In the above screenshot, that would be **Effects**.
 
@@ -107,17 +107,17 @@ plugdata uses an infinite canvas to dispaly PD patches. The coordinate space is 
 
 The display of both origin and border dashed lines are canvas overlays. See [overlays](#14-overlay-selector-menu) for more info on how to show / hide them.
 
-![canvas coordinate space](screenshots/canvas-overview.png)
+![canvas coordinate space](../screenshots/canvas-overview.png)
 
 The PD Window area (border overlay) shown below is a representation of what PD-Vanilla will display when opening this patch. By using an infinite canvas model for canvas workspace, the user can freely move between PD-Vanilla and plugdata, and still have access to the size of  the PD window (important for plugin creation, or simply for making sure your patch will display correctly in PD-Vanilla:
 
-![plugdata border to pd vanilla](screenshots/canvas-overview-plugin-mode.png)
+![plugdata border to pd vanilla](../screenshots/canvas-overview-plugin-mode.png)
 
 :warning: PD-Vanilla will show scrollbars when canvas elements are near the edge. It is important that plugdata saves the window size 1:1, even if PD-Vanilla chooses to display scrollbars. If this is an issue for your use case, consider adding padding to the right / bottom of the canvas dimensions.
 
 When plugdata is in plugin mode, the border area is used to define the width and height of the plugin. In this way, a user can make plugin GUI's that have custom dimensions, which will be compatible with PD-Vanilla:
 
-![plugin mode pd vanilla](screenshots/plugdata-plugin-mode-pd-vanilla.png)
+![plugin mode pd vanilla](../screenshots/plugdata-plugin-mode-pd-vanilla.png)
 
 :pushpin: Note that when plugdata is in plugin mode, there are no scrollbars, and the rest of the plugdata editor is hidden. Plugin mode is locked to the size of the PD-Vanilla window border area. And allows the plugin user to concentrate only on the plugins UI.
 
@@ -135,7 +135,7 @@ The side panel allows the user to show 4 different tabs:
 
 ### Automation parameters:
 
-![add parameter panel](screenshots/add_parameter_panel.png)
+![add parameter panel](../screenshots/add_parameter_panel.png)
 
 **Add new parameter** allows you to add new parameter automation to plugdata.
 This is most useful when plugdata runs as a plugin in a host (such as a Digital Audio Workstation DAW).
@@ -148,11 +148,11 @@ Clicking the flippy triangle will expose the parameter settings, such as range a
 
 Hovering over the parameter will display a reorder and close icon. Click and drag the reorder icon to reposition the parameter in the list. Click close to remove the parameter from the list.
 
-![automation walkthrough](screenshots/automation_parameter_walkthrough_2.gif)
+![automation walkthrough](../screenshots/automation_parameter_walkthrough_2.gif)
 
 ### 14) Overlay selector menu:
 
-![overlay selector menu](screenshots/overlay_selector_menu.png)
+![overlay selector menu](../screenshots/overlay_selector_menu.png)
 
 This menu allows the user to turn on and off different infomation graphic elements on the canvas.
 Such as showing the canavs origin, or canvas border.
@@ -168,7 +168,7 @@ For more detailed outline, [see](UI-Overlay-overview.md)
 
 ### 15) Canvas object snapping menu:
 
-![snapping menu](screenshots/snapping_menu.png)
+![snapping menu](../screenshots/snapping_menu.png)
 
 This menu controls the way objects on the canvas snap to each other. The user can select from snapping to **Edges** or **Centers** of other objects on the canvas.
 
@@ -176,7 +176,7 @@ The option **Grid** allows the objects to snap to the canvas grid. The resolutio
 
 ### 17) Oversampling menu:
 
-![oversampling menu](screenshots/oversampling_selector.png)
+![oversampling menu](../screenshots/oversampling_selector.png)
 
 This menu allows the user to change the oversampling factor. Oversampling will make plugdata calculate more samples per second. For example, if plugdata was set to 44.1khz sample rate, 2x would calculate 88.2khz. This improves the quality of some objects, such as patches that include distortion, or non-bandlimited oscillators. :pushpin: Oversampling does not effect the output sample rate, only the internal processing.
 
