@@ -2,42 +2,31 @@
 ![plugdata main window](../screenshots/plugdata_main_interface_markup.png)
 
 #### Toolbar
-
 1. [Main menu (including save / load)](#1-main-menu)
 2. Undo / Redo action on current canvas
 3. [Add object menu](#3-add-object-menu)
 4. Mode selector: Edit / Run / Presentation
 5. Activate plugin mode
-6. Close right panel
-
     #### Tabs
-
-7. Create new patch (tab)
-8. Canvas / Patch tab
-
-    #### Palettes
-
-9. [Palette selector](#9-palette-panel)
-
-    #### Canvas
-
-10. [Canvas work area](#10-canvas)
-
+6. Create new patch (tab)
+7. Canvas / Patch tab
     #### Right panel
-
-11. [Side panel](#11-side-panel)
-
+8. Pin right panel
+9. [Side panel](#11-side-panel) selector: console, documentation browser, automation, search
+    #### Palettes
+10. [Palette selector](#9-palette-panel)
+    #### Canvas
+11. [Canvas work area](#10-canvas)
     #### Statusbar
-
-12. Center canvas view
-13. Zoom to fit all objects into view
-14. [Overlay selector menu](#14-overlay-selector-menu)
-15. [Canvas object snapping menu](#15-canvas-object-snapping-menu)
-16. MIDI in/out activity indicator
-17. [Oversampling selector](#17-oversampling-menu)
+12. Zoom settings
+13. Move view to origin
+14. [Canvas object snapping menu](#15-canvas-object-snapping-menu)
+15. [Overlay selector menu](#14-overlay-selector-menu)
+16. CPU usage
+17. MIDI in/out activity indicator
 18. Main volume control
-19. Audio on/off (blue when on)
-20. Limiter (protect output from high volume)
+19. Limiter (protect output from high volume)
+20. Audio on/off (blue when on)
 
 ### 1) Main menu:
 The main menu allows the user to do file related operations, as well as control and access plugdata settings.
