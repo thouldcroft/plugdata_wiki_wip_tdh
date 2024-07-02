@@ -8,7 +8,7 @@ Install honkit
 
 `$ npm install honkit --save-dev`
 
-Serve static pages for testing:
+Serve static pages for testing (from docs/):
 
 `$ npx honkit serve`
 
