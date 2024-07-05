@@ -12,4 +12,4 @@ Please check the sidebar for installation and basic usage information. More info
 
 
 
-![plugdata-screenie](../plugdata-screenie.png)
+![plugdata-screenie](../screenshots/plugdata-screenie.png)
