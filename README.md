@@ -8,7 +8,7 @@ Install honkit
 
 `$ npm install honkit --save-dev`
 
-Serve static pages for testing:
+Serve static pages for testing (from docs/):
 
 `$ npx honkit serve`
 
@@ -27,4 +27,8 @@ plugdata is always written in lower case, even when it is at the beginning of a 
 
 Names of Pd objects and Pd specific terminology should be left untranslated.
 
+## Graphics
 
+Files to help update screenshots with markup are included which have the screenshot image and any markup graphics (numbers, explanatory text) on different layers. As the UI updates, a screenshot can be replaced using an application like Inkscape.
+
+plugdata_main_interface_markup.svg
