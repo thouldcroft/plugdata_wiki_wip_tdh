@@ -2,5 +2,5 @@
 
 * [English](en/)
 
-* [Le Francais](fr/)
+* [Francais](fr/)
 
