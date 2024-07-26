@@ -7,6 +7,7 @@
 * [Basic operation](Basic-operation.md)
 * [UI overlay overview](UI-Overlay-overview.md)
 * [plugdata in the DAW](plugdata-in-the-DAW.md)
+* [DAW integration](DAWIntegration.md)
 * [Compiling patches](compiling-patches.md)
 
 
