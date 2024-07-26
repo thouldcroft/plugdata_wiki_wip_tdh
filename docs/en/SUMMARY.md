@@ -22,6 +22,7 @@
     * [Keyboard input in DAW not working](Troubleshooting.md#keyboard-input-in-daw-not-working)
     * [Sound not working](Troubleshooting.md#sound-not-working)
 
+* [Resources](Resources.md)
 * [FAQ](FAQ.md)
 
 
