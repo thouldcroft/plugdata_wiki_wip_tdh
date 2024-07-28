@@ -21,11 +21,11 @@ In the main plugdata menu, you will find a toggle box labelled **Compiled Mode**
 **Compiled Mode** indicates if there are objects in your patch that cannot be used in a compiled patch by posting a message to the console, and outlining the object in question. The auto-completion in plugdata will also only provide compatible objects when this mode is activated.
 
 Object error indication when using an unsupported object in Compilation Mode:
-![heavy object unsupported](../screenshots/heavy_unsupported.png)
+![heavy object unsupported](../images/heavy_unsupported.png)
 
 Console error warning when using an unsupported object in Compilation Mode:
 
-![heavy console warning](../screenshots/heavy_unsupported_warning.png)
+![heavy console warning](../images/heavy_unsupported_warning.png)
 
 ## Compiling in plugdata
 
@@ -33,7 +33,7 @@ Selecting `Compile...` opens a window with compilation options for different mod
 
 ### General Configuration
 
-![heavy general config](../screenshots/heavy_general_config.png)
+![heavy general config](../images/heavy_general_config.png)
 
 Common fields in this section include:
 
@@ -43,19 +43,19 @@ Common fields in this section include:
 
 ### C++ Code
 
-![heavy cpp menu](../screenshots/heavy_cpp_menu.png)
+![heavy cpp menu](../images/heavy_cpp_menu.png)
 
 In C++ Code mode, your plugdata patch is transpiled to generic C/C++ code. Adapt the raw code for specific applications. Learn more in the [official documentation](https://wasted-audio.github.io/hvcc/docs/05.c.html).
 
 ### Electro-Smith Daisy
 
-![heavy daisy menu](../screenshots/heavy_daisy_menu.png)
+![heavy daisy menu](../images/heavy_daisy_menu.png)
 
 Daisy mode allows running your patch on an embedded hardware device based on an STM32 microcontroller. Options include choosing a target board, export types (Source Code, Binary, Flash), enabling USB MIDI, and configuring patch size.
 
 ### DPF AUdio Plugin
 
-![heavy dpf menu](../screenshots/heavy_dpf_menu.png)
+![heavy dpf menu](../images/heavy_dpf_menu.png)
 
 DPF mode exports self-contained versions of your patch in various formats (VST2, VST3, LV2, CLAP, JACK). Choose export type (Source Code, Binary) and plugin type (Effect, Instrument, Custom). Select plugin formats in the provided list.
 
@@ -64,7 +64,7 @@ DPF mode exports self-contained versions of your patch in various formats (VST2,
 
 ### Pd External
 
-![heavy pdexternal menu](../screenshots/heavy_pdexternal_menu.png)
+![heavy pdexternal menu](../images/heavy_pdexternal_menu.png)
 
 Export your patch as a Pd external for optimized performance. Choose export type (Binary or Source Code) and enable copying to the externals path.
 
