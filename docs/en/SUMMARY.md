@@ -1,13 +1,12 @@
 # Getting PlugData
 *  [Installation](Installation.md)
-*  [Building from source](Building-from-source.md)	
+*  [Building from source](Building-from-source.md)
 
 # Use guide
 * [UI overview](UI-Overview.md)
 * [Basic operation](Basic-operation.md)
 * [UI overlay overview](UI-Overlay-overview.md)
-* [plugdata in the DAW](plugdata-in-the-DAW.md)
-* [DAW integration](DAWIntegration.md)
+* [DAW integration](./Plugin-Form/Plugin-Form.md)
     * [Ableton Live](./Plugin-Form/DAW-Specifics/plugdata-in-Ableton-Live.md)
     * [Ardour](./Plugin-Form/DAW-Specifics/plugdata-in-Ardour.md)
     * [Bitwig Studio](./Plugin-Form/DAW-Specifics/plugdata-in-Bitwig-Studio.md)
@@ -24,7 +23,3 @@
 
 * [Resources](Resources.md)
 * [FAQ](FAQ.md)
-
-
-
-
