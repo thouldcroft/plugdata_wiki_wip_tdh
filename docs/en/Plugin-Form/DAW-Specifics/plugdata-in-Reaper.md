@@ -1,7 +1,7 @@
 # DAW Integration - Reaper
 
 ## Creating and Editing Patches
-Ardour is one of the DAWs that may not register the typing keyboard for creating and editing objects in plugdata. To enable keyboard input:
+Reaper is one of the DAWs that may not register the typing keyboard for creating and editing objects in plugdata. To enable keyboard input:
 - Enable the "Send all keyboard input to plug-in" option in the FX menu of the plugin window:
 
     ![REAPER](../images/reaper-screenie.png)
