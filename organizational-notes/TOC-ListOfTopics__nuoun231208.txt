@@ -1,0 +1,255 @@
+** Proposed full documentation TOC/List of Topics by Discord user nuoun, 12/8/23 **
+
+
+Table of contents
+
+Introduction
+	About plugdata
+	plugdata concepts
+		Opensource and fully cross-platform
+		Plugin capabilities
+		Touchscreen support
+		Heavy/hvcc integration
+		ELSE library 
+		Cyclone library
+		Lua bindings for Pd with pdlua
+		Pd vanilla compatible
+		Externals
+	Accessibility tips
+
+Getting started
+	Downloading plugdata
+	Building from source
+	plugdata as a plugin
+	plugdata standalone
+	Setting up plugdata
+		Configuring audio and MIDI devices
+		Testing audio and MIDI IO
+	Installing externals
+		Find externals package manager
+		Building from source
+		Finding external help files
+		Adding paths
+	Guide to the documentation
+	Tutorials
+
+Troubleshooting
+	Sound not working
+		DSP and volume
+		DAW config
+		Devices
+	MIDI not working
+	Checking console error messages
+	Fixing clicks and pops
+	Finding help
+
+GUI documentation
+	GUI overview
+	Main menu
+		Primary / secondary theme and zoom options
+		File options
+		Workspaces
+		Compiled mode
+		Compile
+	Settings window
+		Audio device configuration
+		MIDI IO configuration
+		Themes
+		Paths
+		Keyboard shortcuts
+		Advanced options
+	Undo and redo
+	Add object button and object browser
+	Display modes
+		Edit mode
+		Run mode
+		Presentation mode
+		Plugin mode
+	Tab bar
+		Organizing tabs
+	Context menu
+		Cut, Copy, Paste, Delete
+		Open
+		Object help
+		Object reference
+		Curved connections
+		Tidy connections
+		Encapsulate
+		Properties inspector
+	Palette sidebar
+		Palette panel
+	Panel sidebar
+		Console panel
+			Clear and restore
+			Show messages
+			Show errors
+			Autoscroll
+		Documentation panel
+			Show custom folder...
+			Show default folder
+		Automation panel
+		Search panel
+	Tool bar
+		Move view to origin
+		Zoom to fit all
+		Show overlays
+		Overlay settings
+		Enable snapping
+		Snap settings
+		Alignment tools
+		CPU usage
+		MIDI activity
+		Set oversampling
+		Volume
+		Enable/disable DSP
+		Clip output signal and filter non-finite values
+	
+Studio integration and network connectivity
+	Interacting with plugdata and the DAW
+		[playhead] abstraction
+		[param] abstraction
+		Ableton Live examples
+			MIDI note IN
+			MIDI note OUT
+			MIDI CC IN
+			MIDI CC OUT
+			FX
+			Parameter automation
+			Syncing clocks
+		Bitwig Studio examples
+		REAPER examples
+		Ardour examples
+		FL Studio examples
+		Studio One examples
+		Logic examples
+	Interacting with the standalone
+		Ableton Link with [abl_link~] external
+		MIDI examples
+		Messagings over network with [netsend] & [netreceive]
+		OSC options
+	
+Compiling with Heavy/hvcc
+	What is Heavy/hvcc
+	Installing the toolchain
+	Compiling and Compilation Mode
+	Supported objects
+	Included substraction
+	Licensing
+
+Tutorials
+	How to make your first patch in plugdata tutorial
+		Audio test
+		Create a new patch
+		Browsing the palette panel
+		Add input, instrument and output
+		Select and deselect objects
+		Create and destroy connections
+		Adding an effect
+		Simple sequencing
+		Visualising sound
+	First abstraction tutorial
+		Hello world
+		Parent patch and abstraction
+		Patching a VCO
+		Ranges and limiting output
+		Documenting our decisionmaking
+		Better control through decibels
+		Patching it all together
+		Clone and polyphony
+		Intervals, unison and detune
+
+Learning to program in plugdata and Pd
+	Learning plugdata concepts
+		Audio signals and control messages
+		Wireless connections
+		Hot and cold inlets
+		Execution order
+		[trigger]
+		[float] counter
+		Subpatches and abstractions
+		Graph-on-parent
+		Message boxes
+		Dollar sign variables/arguments
+			Dollar sign arguments in message boxes
+			The $0 namespace
+			Abstraction creation arguments
+			Dollar sign arguments object creation arguments
+		Blocksize
+		Different data types
+			float
+			bang
+			symbol
+			list
+			pointer
+		Intro to list
+		Text
+		Array
+		Garray
+		Multi-array
+		Sinesum
+		
+	Debugging tips	
+
+FAQ
+
+Development
+	Status
+	Known issues
+	Frameworks
+	Future android version
+	Reporting bugs and feature requests
+	
+Links and resources
+	plugdata on Discord
+	Books
+	Lectures, talks and classes
+		
+	Videos
+	Github
+	Patchstorage
+	Pd vanilla
+		Pd vanilla manual
+		Pure Data on Discord
+		https://forum.pdpatchrepo.info/
+		https://puredata.info/
+		https://github.com/pure-data/pure-data
+
+
+Glossary
+
+$0
+abstraction
+ADC
+ADSR
+argument
+bang
+BP
+console
+context menu
+CV
+DAC
+DAW
+Deken
+DSP
+EQ
+dollar sign argument
+env
+external
+GoP
+HP
+LFO
+LP
+module
+Osc
+palette
+patch
+Pd
+PWM
+subpatch
+tool bar
+vanilla
+VCA
+VCO
+VCF
+
+Special thanks

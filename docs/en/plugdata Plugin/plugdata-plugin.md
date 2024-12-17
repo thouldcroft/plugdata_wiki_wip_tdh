@@ -1,4 +1,4 @@
-# DAW Overview
+# plugdata Plugin
 <!-- it would be great if we could link to a plugdata patch that covers all this information interactively -->
 ## Introduction
 Along with functioning as a full standalone Pure Data flavor, plugdata can also run as a VST3, LV2, CLAP or AU plug-in within any DAW that can host those plug-in types.
